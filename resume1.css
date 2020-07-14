@@ -1,0 +1,135 @@
+body{
+
+margin-left: 10%;
+margin-right: 10%;
+padding: 0;
+font-family: sans-serif;
+background-color:white;
+
+}
+.box{
+	
+
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 20px;
+	box-sizing: :border-box;
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	display: flex;
+	background-color: gray;
+}
+.box:hover{
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	border-bottom-color: #00000fffff;
+}
+
+.box .imgbox{
+	width: 400px;
+	max-height: 100%;
+
+}
+.box .imgbox img{
+	max-width: 100%;
+	flex: 0 0 150px; 
+	padding: 0px;
+
+
+}
+.box .content{
+	padding-left: 20px;
+}
+.box .content h2{
+	margin:0;
+	padding-left: 0px;
+
+	font-size: 22px;
+}
+.box .content p{
+	margin:0;
+	padding: 0px;
+	text-align:justify;
+
+}
+.li{
+float:right;
+margin-right: 15px;
+}
+li a{
+display:block;
+color:PURPLE;
+text-align:center;
+padding: 14px 16px;
+text-decoration:none;
+}
+li a:hover{
+background-color:yellow;
+}
+ul{
+	
+list-style-type:none;
+margin-top: 30px;
+height:630px;
+border-radius: 25px 25px 25px 25px;
+margin-bottom: 20px;
+overflow:hidden;
+background-color:aqua;
+}
+.H1{
+COLOR:AGUA;
+BORDER:SOLID BLACK;
+BORDER-SIZE:10PX;
+WIDTH:200PX;
+HIEGHT:50PX;
+TEXT-ALIGN:CENTER;
+MARGIN-LEFT:50px;
+BORDER-RADIUS:20PX 0PX 20PX 0PX;
+BORDER-TOP:NONE;
+BORDER-LEFT:NONE;
+BORDER-RIGHT:NONE;
+}
+.H1:HOVER{
+COLOR:WHITE;
+BORDER:SOLID AQUA;
+BORDER-SIZE:2PX;
+BACKGROUND:BLACK;
+WIDTH:200PX;
+HIEGHT:50PX;
+TEXT-ALIGN:CENTER;
+MARGIN-LEFT:50px;
+BORDER-RADIUS:30PX 0PX 2PX 20PX 0PX;
+}
+.name1{
+COLOR:BLUE;
+BORDER:SOLID BLACK;
+BORDER-SIZE:20PX;
+WIDTH:400PX;
+HIEGHT:40PX;
+TEXT-ALIGN:CENTER;
+MARGIN-LEFT:50px;
+BORDER-RADIUS:20PX 0PX 20PX 250PX;
+BORDER-TOP:NONE;
+BORDER-LEFT:NONE;
+BORDER-RIGHT:NONE;
+}
+.name1:HOVER{
+COLOR:WHITE;
+BORDER:SOLID AQUA;
+BORDER-SIZE:2PX;
+BACKGROUND:BLACK;
+WIDTH:600PX;
+HIEGHT:60PX;
+TEXT-ALIGN:CENTER;
+MARGIN-LEFT:50px;
+BORDER-RADIUS:20PX 0PX 2PX 20PX 0PX;
+}
+.name2{
+	color: BLUE
+	
+	border:solid black;
+	border-bottom: dashed;
+	border-bottom-color: green;
+}
